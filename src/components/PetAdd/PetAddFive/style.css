@@ -1,0 +1,16 @@
+.step-5-avatar-image {
+  top: -36px;
+}
+
+.add-pet-tag-span {
+  background-color: var(--lightPink);
+  border-radius: 15px;
+  color: var(--grey);
+  padding: 5px 10px 5px 10px;
+  margin-right: 5px;
+}
+
+.overview-catalog-font {
+  font-size: 1.8rem;
+  line-height: unset;
+}

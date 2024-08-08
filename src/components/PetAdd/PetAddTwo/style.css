@@ -1,0 +1,25 @@
+.upload-button {
+  width: 58px;
+  height: 58px;
+  background-color: white;
+  border: 1px solid var(--darkPink);
+}
+
+.font-color-navy {
+  color: var(--navy);
+}
+
+.selection-div {
+  height: 56px;
+  border: 1px solid var(--darkPink);
+}
+
+.gender-select input:checked + label {
+  background-color: var(--pink);
+}
+.spayed-select input:checked + label {
+  background-color: var(--pink);
+}
+.weight-select input:checked + label {
+  background-color: var(--pink);
+}

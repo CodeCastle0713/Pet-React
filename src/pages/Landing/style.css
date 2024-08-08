@@ -1,0 +1,67 @@
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+}
+
+span.p-absolute {
+  color: var(--white);
+}
+
+.hero {
+  background-image: url(../../../public/asset/img/bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+}
+
+.hero-text {
+  margin-top: 220px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  gap: 30px;
+}
+
+.hero-text h1 {
+  color: white;
+}
+
+.service {
+  background-color: var(--pink);
+  background-image: url(../../../public/asset/img/service-img.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+
+.review {
+  background-color: var(--navy);
+}
+
+.review div h2 {
+  color: var(--white);
+}
+
+footer {
+  background-color: var(--pink);
+  height: 504px;
+}
+
+footer div {
+  height: 100%;
+}
+
+footer div :first-child {
+  color: var(--grey);
+}
+footer div :last-child {
+  text-decoration: underline;
+}

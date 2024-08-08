@@ -1,0 +1,42 @@
+.options .option-card {
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.options .option-card .option-icon-container {
+  height: 96px;
+  width: 96px;
+  background-color: var(--lightPink);
+  border: 1px solid var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -48px;
+  /* z-index: -1; */
+}
+
+.option-card .option-card-info {
+  padding: 0px 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.option-card .option-card-price {
+  background-color: var(--paleBlue);
+  border-top: 1px solid var(--blue);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px 20px 0px;
+}

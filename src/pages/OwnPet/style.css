@@ -1,0 +1,34 @@
+.pet-content {
+  background-color: var(--lightPink);
+  width: 60%;
+  height: 100vh;
+}
+
+.petadd-one,
+.petadd-two,
+.petadd-three,
+.petadd-four,
+.petadd-five {
+  padding: 80px 120px 80px 120px;
+}
+
+input[type="text"],
+textarea,
+select {
+  color: var(--navy);
+  height: 56px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--darkPink);
+  font-size: 24px;
+  padding: 10px 18px 10px 18px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: var(--pink);
+}

@@ -1,0 +1,98 @@
+:root {
+  --navy: #545871;
+  --grey: #9597a6;
+  --blue: #dadbe6;
+  --paleBlue: #f0f1f7;
+  --red: #b8817d;
+  --pink: #ebd0ce;
+  --darkPink: #e6dbda;
+  --lightPink: #f7eceb;
+  --white: #ffffff;
+}
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+/* 
+@font-face {
+  font-family: Henriette;
+  src: url(sansation_light.woff);
+}
+
+@font-face {
+  font-family: Basic Sans;
+  src: url(sansation_light.woff);
+} */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--navy);
+}
+
+.sidebar-text,
+.small-text {
+  color: var(--grey);
+}
+
+h1 {
+  font: bold 54pt/64pt Henriette;
+}
+
+h2 {
+  font: bold 48pt/56pt Henriette;
+}
+
+h3 {
+  font: bold 36pt/40pt Henriette;
+}
+
+h4 {
+  font: bold 24pt/32pt Henriette;
+}
+
+p {
+  font: lighter 24pt/32pt Basic Sans;
+}
+
+.sidebar-text {
+  font: bold 20pt/32pt Basic Sans;
+}
+
+.small-text {
+  font: bold 12pt/28pt Basic Sans;
+}
+
+.theme-btn-1 {
+  color: var(--navy);
+  background-color: var(--white);
+}
+
+.theme-btn-2 {
+  color: var(--white);
+  background-color: var(--navy);
+}
+
+.theme-btn-3 {
+  color: var(--navy);
+  background-color: var(--pink);
+}
+
+.theme-btn-1:hover,
+.theme-btn-2:hover,
+.theme-btn-3:hover {
+  background-color: var(--blue);
+  color: var(--navy);
+}
+
+.custom-btn {
+  width: 256px;
+  height: 56px;
+  font-size: 24px;
+  border-radius: 35px;
+  border: none;
+}

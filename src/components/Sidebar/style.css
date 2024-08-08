@@ -1,0 +1,79 @@
+.sidebar {
+  width: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 80px 100px 60px 180px;
+}
+
+.sidebar-catwalkimg {
+  background-image: url(../../../public/asset/img/cat-walk_01.png);
+}
+
+.sidebar-dogimg {
+  background-image: url(../../../public/asset/img/dog_01.png);
+}
+
+.sidebar-catimg {
+  background-image: url(../../../public/asset/img/cat_01.png);
+}
+
+.sidebar-pugimg {
+  background-image: url(../../../public/asset/img/pug_01.png);
+}
+
+.sidebar-puppyimg {
+  background-image: url(../../../public/asset/img/puppy_01.png);
+}
+
+.sidebar div span {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  padding-left: 15px;
+}
+
+.dot-container {
+  width: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-dot {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: var(--grey);
+}
+
+.progress-dot-active {
+  outline: 10px solid white;
+  background-color: var(--navy);
+}
+
+.progress-dot-font {
+  font-size: 26px;
+  font-weight: 100;
+  color: var(--grey);
+}
+
+.progress-dot-font-active {
+  color: white;
+}
+
+.vertical-line {
+  border: 1px solid var(--grey);
+  width: 2px;
+  height: 80px;
+  margin-left: 27px;
+}
+
+.extra-font {
+  text-decoration: underline;
+  font-size: 26px;
+  color: white;
+  font-weight: 100;
+}
